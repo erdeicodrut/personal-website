@@ -27,13 +27,13 @@ editPost:
     appendFilePath: true # to append file path to Edit link
 ---
 
-In the past years I've always wanted to have a home server for some reason, but my formation as a programmer who did leetcode style problems from the age of 10 it was really hard for me to bear the inefficiency of having a Linux machine running 24/7 in my home.
+In the past years I've always wanted to have a home server for some reason, but my formation as a programmer who did leetcode style problems from the age of 10 made it really hard for me to bear the inefficiency of having a Linux machine running 24/7 in my home.
 
 Having been semi-cured of that issue let's jump in the actual config.
 
 ### The config
 
-Starting out with the computer I chose for a server was a Dell OptiPlex 7050 Micro that I bought refurbished from a local company for around $140, plus I had to get an SSD because the one that came with it had too many bad sectors;
+Starting out with the computer I chose for a server: a Dell OptiPlex 7050 Micro that I bought refurbished from a local company for around $140, plus I had to get an SSD because the one that came with it had too many bad sectors;
 so I got an SSD for ~$35 and that was that.
 ![dell](images/DellOptiPlex.webp)
 
