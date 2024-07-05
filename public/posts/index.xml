@@ -2,23 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on Codrut Erdei</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>https://codrut.dev/posts/</link>
     <description>Recent content in Posts on Codrut Erdei</description>
     <image>
       <title>Codrut Erdei</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://codrut.dev/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://codrut.dev/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.127.0</generator>
     <language>en</language>
     <lastBuildDate>Fri, 05 Jul 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://codrut.dev/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My 1st post</title>
-      <link>http://localhost:1313/posts/post/</link>
+      <title>Switching to a self hosted paradigm.</title>
+      <link>https://codrut.dev/posts/homeserver/</link>
       <pubDate>Fri, 05 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/post/</guid>
-      <description>Desc Text.</description>
+      <guid>https://codrut.dev/posts/homeserver/</guid>
+      <description>In the past years I&amp;rsquo;ve always wanted to have a home server for some reason, but my formation as a programmer who did leetcode style problems from the age of 10 it was really hard for me to bear the inefficiency of having a Linux machine running 24/7 in my home.
+Having been semi-cured of that issue let&amp;rsquo;s jump in the actual config.
+The config Starting out with the computer I chose for a server was a Dell OptiPlex 7050 Micro that I bought refurbished from a local company for around $140, plus I had to get an SSD because the one that came with it had too many bad sectors; so I got an SSD for ~$35 and that was that.</description>
     </item>
   </channel>
 </rss>

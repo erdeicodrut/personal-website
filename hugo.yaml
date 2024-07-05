@@ -18,14 +18,13 @@ params:
   description: "Codrut Erdei's personal website."
   keywords: [Blog, Portfolio, PaperMod]
   author: Me
-  # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
-  defaultTheme: auto # dark, light
+  defaultTheme: auto
   disableThemeToggle: false
 
   ShowReadingTime: true
-  ShowShareButtons: true
+  ShowShareButtons: false
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: false
@@ -34,7 +33,7 @@ params:
   UseHugoToc: true
   disableSpecial1stPost: false
   disableScrollToTop: false
-  comments: false
+  comments: true
   hidemeta: false
   hideSummary: false
   showtoc: false
@@ -43,15 +42,14 @@ params:
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "<link / abs url>"
-    favicon16x16: "<link / abs url>"
-    favicon32x32: "<link / abs url>"
-    apple_touch_icon: "<link / abs url>"
-    safari_pinned_tab: "<link / abs url>"
+    favicon: "favicon.png"
+    favicon16x16: "favicon16x16.png"
+    favicon32x32: "favicon32x32.png"
+    apple_touch_icon: "apple_touch_icon.png"
+    safari_pinned_tab: "safari_pinned_tab.png"
 
   label:
     text: "Home"
-    icon: /apple-touch-icon.png
     iconHeight: 35
 
   # profile-mode
@@ -59,6 +57,7 @@ params:
     enabled: true # needs to be explicitly set
     title: Codrut Erdei
     subtitle: "You've landed on my personal website. Welcome!"
+    subtitle2: "I am a Software Engineer and hobby Photographer."
     imageUrl: "images/profile.webp"
     imageWidth: 300
     imageHeight: 300
@@ -74,22 +73,20 @@ params:
       url: "https://youtube.com/@codruterdei"
     # - name: stackoverflow
     #   url: "https://stackoverflow.com"
-    # - name: github
-    #   url: "https://github.com/"
+    - name: github
+      url: "https://github.com/erdeicodrut"
+    #   url: "https://stackoverflow.com"
+    - name: email
+      url: "mailto:codruterdei@gmail.com"
 
   analytics:
     google:
       SiteVerificationTag: "GuvxiGsrJSf0gKSJewt7SNDZshJBKja0q-2PI7KL9gk"
 
   cover:
-    hidden: true # hide everywhere but not in structured data
-    hiddenInList: true # hide on list pages and home
-    hiddenInSingle: true # hide on single page
-
-  editPost:
-    URL: "https://github.com/<path_to_repo>/content"
-    Text: "Suggest Changes" # edit text
-    appendFilePath: true # to append file path to Edit link
+    hidden: false
+    hiddenInList: true
+    hiddenInSingle: true
 
   # for search
   # https://fusejs.io/api/options.html
@@ -100,18 +97,19 @@ params:
     distance: 1000
     threshold: 0.4
     minMatchCharLength: 0
-    limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+    limit: 10
     keys: ["title", "permalink", "summary", "content"]
-menu:
-  main:
-    - identifier: categories
-      name: categories
-      url: /categories/
-      weight: 10
-    - identifier: tags
-      name: tags
-      url: /tags/
-      weight: 20
+
+# menu:
+#   main:
+#     - identifier: categories
+#       name: categories
+#       url: /categories/
+#       weight: 10
+#     - identifier: tags
+#       name: tags
+#       url: /tags/
+#       weight: 20
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:

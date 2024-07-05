@@ -11,13 +11,13 @@
     </image>
     <generator>Hugo -- 0.127.0</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 15 Sep 2020 11:30:03 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jul 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/first/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My 1st post</title>
-      <link>http://localhost:1313/archetypes/post/</link>
-      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
-      <guid>http://localhost:1313/archetypes/post/</guid>
+      <title>Making a home server to ditch other 3rd party services.</title>
+      <link>http://localhost:1313/posts/post/</link>
+      <pubDate>Fri, 05 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/post/</guid>
       <description>Desc Text.</description>
     </item>
   </channel>

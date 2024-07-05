@@ -2,10 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://codrut.dev/</loc>
+    <lastmod>2024-07-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://codrut.dev/tags/docker/</loc>
+    <lastmod>2024-07-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://codrut.dev/tags/home-server/</loc>
+    <lastmod>2024-07-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codrut.dev/posts/</loc>
+    <lastmod>2024-07-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codrut.dev/posts/homeserver/</loc>
+    <lastmod>2024-07-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codrut.dev/tags/</loc>
+    <lastmod>2024-07-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://codrut.dev/categories/</loc>
   </url>
 </urlset>
