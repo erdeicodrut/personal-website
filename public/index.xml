@@ -9,25 +9,52 @@
       <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- 0.127.0</generator>
+    <generator>Hugo -- 0.147.8</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 04 Sep 2024 11:53:04 +0300</lastBuildDate>
+    <lastBuildDate>Mon, 06 Jan 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Resume</title>
+      <link>http://localhost:1313/resume/</link>
+      <pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resume/</guid>
+      <description>&lt;h1 id=&#34;codrut-e---software-engineer&#34;&gt;Codrut E - Software Engineer&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;6+ Years Experience | Flutter Expert | Full-Stack Developer&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;📧 &lt;a href=&#34;mailto:codruterdei@gmail.com&#34;&gt;codruterdei@gmail.com&lt;/a&gt; | 🐙 &lt;a href=&#34;https://github.com/erdeicodrut&#34;&gt;GitHub&lt;/a&gt; | 📺 &lt;a href=&#34;https://youtube.com/@codruterdei&#34;&gt;YouTube&lt;/a&gt; | 💼 &lt;a href=&#34;https://linkedin.com/in/codruterdei&#34;&gt;LinkedIn&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
+&lt;p&gt;Senior Software Engineer specializing in Flutter development with expertise in full-stack architecture. Proven track record delivering production applications for world champions, major enterprises, and blockchain platforms. Creator of apps used by 100K+ users globally.&lt;/p&gt;
+&lt;h2 id=&#34;technical-skills&#34;&gt;Technical Skills&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Mobile&lt;/strong&gt;: Flutter, Dart, BLoC, RxDart, GetX, iOS/Android native development&lt;br&gt;
+&lt;strong&gt;Frontend&lt;/strong&gt;: React, TypeScript, JavaScript, HTML5, CSS3, Vue.js&lt;br&gt;
+&lt;strong&gt;Backend&lt;/strong&gt;: Go, Rust, Node.js, Python, PostgreSQL, MongoDB, Redis&lt;br&gt;
+&lt;strong&gt;Cloud&lt;/strong&gt;: AWS, Google Cloud, Docker, Kubernetes, Serverless, Microservices&lt;br&gt;
+&lt;strong&gt;Blockchain&lt;/strong&gt;: Algorand, Ethereum, Web3, Cryptocurrency wallets, DeFi&lt;br&gt;
+&lt;strong&gt;Tools&lt;/strong&gt;: Git, CI/CD, Firebase, Supabase, REST APIs, GraphQL&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Trying to get away from Apple, maybe next time.</title>
       <link>http://localhost:1313/posts/laptop/</link>
       <pubDate>Wed, 04 Sep 2024 11:53:04 +0300</pubDate>
       <guid>http://localhost:1313/posts/laptop/</guid>
-      <description>I&amp;rsquo;ve been using Linux for more than 6 years and then moved to a Macbook Pro because of the build quality and Unix compliancy. I had a 2019 13&amp;quot; base model MPB (i5) which was great. I built a PC (Ryzen 9 w/ some AMD GPU) on which I carried on the same Arch (btw) install for more than 2 years. I exchanged all that for a 2021 14&amp;quot; MBP (M1 Pro) and never cared about anything released since.</description>
+      <description>&lt;p&gt;I&amp;rsquo;ve been using Linux for more than 6 years and then moved to a Macbook Pro because of the build quality and Unix compliancy.
+I had a 2019 13&amp;quot; base model MPB (i5) which was great. I built a PC (Ryzen 9 w/ some AMD GPU) on which I carried on the same Arch (btw) install for more than 2 years.
+I exchanged all that for a 2021 14&amp;quot; MBP (M1 Pro) and never cared about anything released since. I also had a prebuilt for gaming here and there but the Macbook was always my development machine.
+For context, I only do Flutter, Go, Kotlin, and sometimes compile Rust and C++. So the performance of this machine is massive.
+I am writing this on its keyboard which I consider to be one of the best keyboards I used. Not because it&amp;rsquo;s actually good, but because it&amp;rsquo;s easy to get used to.
+I also had an iPhone (8 -&amp;gt; XR -&amp;gt; 12 mini -&amp;gt; 14 Pro Max) for 6 years and loved the integration.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Switching to a self hosted paradigm.</title>
       <link>http://localhost:1313/posts/homeserver/</link>
       <pubDate>Fri, 05 Jul 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/homeserver/</guid>
-      <description>In the past years I&amp;rsquo;ve always wanted to have a home server for some reason, but my formation as a programmer who did leetcode style problems from the age of 10 made it really hard for me to bear the inefficiency of having a Linux machine running 24/7 in my home.
-Having been semi-cured of that issue let&amp;rsquo;s jump in the actual config.
-The config Starting out with the computer I chose for a server: a Dell OptiPlex 7050 Micro that I bought refurbished from a local company for around $140, plus I had to get an SSD because the one that came with it had too many bad sectors; so I got an SSD for ~$35 and that was that.</description>
+      <description>&lt;p&gt;In the past years I&amp;rsquo;ve always wanted to have a home server for some reason, but my formation as a programmer who did leetcode style problems from the age of 10 made it really hard for me to bear the inefficiency of having a Linux machine running 24/7 in my home.&lt;/p&gt;
+&lt;p&gt;Having been semi-cured of that issue let&amp;rsquo;s jump in the actual config.&lt;/p&gt;
+&lt;h3 id=&#34;the-config&#34;&gt;The config&lt;/h3&gt;
+&lt;p&gt;Starting out with the computer I chose for a server: a Dell OptiPlex 7050 Micro that I bought refurbished from a local company for around $140, plus I had to get an SSD because the one that came with it had too many bad sectors;
+so I got an SSD for ~$35 and that was that.
+&lt;img loading=&#34;lazy&#34; src=&#34;images/DellOptiPlex.webp&#34; alt=&#34;dell&#34;  /&gt;
+&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

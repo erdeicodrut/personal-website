@@ -1,6 +1,7 @@
 baseURL: "https://codrut.dev/"
 title: Codrut Erdei
-paginate: 5
+pagination:
+  pagerSize: 5
 theme: PaperMod
 
 enableRobotsTXT: true
@@ -65,6 +66,8 @@ params:
     buttons:
       - name: Posts
         url: posts
+      - name: Resume
+        url: resume
       # - name: Tags
       #   url: tags
 
@@ -76,6 +79,14 @@ params:
     - name: github
       url: "https://github.com/erdeicodrut"
     #   url: "https://stackoverflow.com"
+    - name: email
+      url: "mailto:codruterdei@gmail.com"
+  
+  Social:
+    - name: youtube
+      url: "https://youtube.com/@codruterdei"
+    - name: github
+      url: "https://github.com/erdeicodrut"
     - name: email
       url: "mailto:codruterdei@gmail.com"
 
